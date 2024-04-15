@@ -1,6 +1,6 @@
 # lab45
 
-Claro, puedo explicarte. En CSS (Cascading Style Sheets), "padding" y "margin" son propiedades importantes para controlar el diseño y el espaciado de los elementos en una página web.
+
 
 Padding (relleno):
 
@@ -41,7 +41,7 @@ Copy code
     width: 200px; /* Ancho de 200 píxeles */
     height: 100px; /* Alto de 100 píxeles */
 }
-Estas son algunas de las propiedades básicas de CSS que se utilizan para controlar el diseño y el espaciado de los elementos en una página web. Con una combinación adecuada de estas propiedades, puedes diseñar una página web con la apariencia que deseas.
+Estas son algunas de las propiedades básicas de CSS que se utilizan para controlar el diseño y el espaciado de los elementos en una página web. 
 
 
 
