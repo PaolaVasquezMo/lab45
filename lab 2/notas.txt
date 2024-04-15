@@ -1,0 +1,50 @@
+<div id="contacto" class="section">
+  <div class="container">
+    <h2 class="text-center mb-4">Contacto</h2>
+    <p class="lead text-center">Ponte en contacto con nosotros para obtener más información.</p>
+    <!-- Agrega aquí tu formulario de contacto -->
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<!-- sección de planes con modelo de cartas--> 
+<div id="planes" class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body" style="background-color: #bf0514;">
+            <i class="fas fa-heart fa-4x mb-3"></i>
+            <h5 class="card-title">Plan Básico</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-light">Seleccionar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card ">
+          <div class="card-body" style="background-color: #4a6ba1;">
+            <i class="fas fa-gem fa-4x mb-3"></i>
+            <h5 class="card-title">Plan Estándar</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-light">Seleccionar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body"  style="background-color: #c0c0c0;">
+            <i class="fas fa-crown fa-4x mb-3"></i>
+            <h5 class="card-title">Plan Premium</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-light">Seleccionar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

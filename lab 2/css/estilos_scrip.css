@@ -1,0 +1,12 @@
+/* Estilos para el carrusel de imágenes */
+.carousel-item img {
+    height: 400px; /* Altura de las imágenes */
+    object-fit: cover; /* Ajuste de la imagen para cubrir el contenedor */
+  }
+/* Estilos para la cuenta regresiva */
+#countdown {
+    font-size: 36px; /* Tamaño de fuente */
+    text-align: center; /* Centrar el texto */
+    margin-top: 50px; /* Margen superior */
+  }
+    

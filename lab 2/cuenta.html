@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Regresiva</title>
+    <link rel="stylesheet" href= "css/estilos_scrip.css>
+</head>
+<body>
+
+<div id="countdown"></div>
+
+<script>
+  // Establecer la fecha de finalización de la cuenta regresiva (formato: año, mes (0-11), día, hora, minuto, segundo)
+  var countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+
+  // Actualizar la cuenta regresiva cada segundo
+  var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+
+    // Cálculos para días, horas, minutos y segundos
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Mostrar el resultado en el elemento con id "countdown"
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+    // Si la cuenta regresiva ha terminado, mostrar un mensaje
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "EXPIRADO";
+    }
+  }, 1000);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* */
+
+#jumbotron {
+    padding: 2rem 2rem;
+    margin-bottom: 0; /* Elimina el margen inferior predeterminado */
+   
+    text-align: justify; /* Justifica el texto dentro del párrafo */
+    
+    
+  }
+  @media (min-width: 768px) {
+    #jumbotron {
+      display: flex;
+      align-items: center;
+      margin: 60px;
+    }
+    #jumbotron .imagen {
+      margin-right: 2rem;
+      
+    }
+   
+  }
+
+  
+  
+  #jumbotron h1{
+    color: black;
+    text-align: center;
+  }
+ 
+  #jumbotron p {
+    color: #4a6ba1; /* Color de letra gris para el párrafo */
+    text-align: center
+    
+  }
+  
+  #jumbotron h4 {
+    color: #c0c0c0; /* Color de letra negro para el subtítulo h4 */
+    text-align: right; /* Alinea el subtítulo hacia la derecha *; /* Alinea el subtítulo hacia la derecha */
+  }
+
+  .navbar {
+    background-color: #bf0514;
+  }
+  .navbar-nav {
+    margin: 0 auto; /* Centra los elementos del nav */
+  }
+  .navbar-nav .nav-item {
+    padding: 0 60px; /* Añade espaciado entre los elementos */
+  }
+  .navbar-nav .nav-link {
+    color: white; /* Cambia el color del texto */
+  }
+
+  .section {
+    height: calc(100% - 56px); /* Resta la altura del navbar */
+    padding-top: 56px; /* Agrega espacio para el navbar fijo */
+  }
+
+  .card {
+    border: none;
+    margin: 40px; /* Aumenta el espacio entre las cartas */
+    padding: 30px; /* Agrega relleno interno a las cartas */
+  }
+  .card-body {
+    text-align: center;
+    
+  }
+
+  .card img {
+    width: 80px; /* Ajusta el tamaño del icono */
+    margin-bottom: 20px; /* Aumenta el espacio entre el icono y el texto */
+  }
+
+  #contactos {
+    padding: 50px 0;
+  }
+  
+  #contactos h2 {
+    margin-bottom: 30px;
+  }
+  
+  
+  #contactos h1 {
+    font-size: 3rem; /* Tamaño del título gigante */
+  }
+  
+  @media (max-width: 768px) {
+    #contactos h1 {
+      font-size: 2rem; /* Reducir el tamaño del título en dispositivos móviles */
+    }
+  }
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
